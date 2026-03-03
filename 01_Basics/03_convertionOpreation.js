@@ -102,3 +102,26 @@
 // let score1 = Boolean(score);
 // console.log(score1);
 // console.log(typeof score1);
+
+// ***************************** Opreations **********************************************
+
+// { Basic Math Operation }
+// console.log(2 + 2);
+// console.log(2 - 2);
+// console.log(2 * 2);
+// console.log(2 ** 2);
+// console.log(2 / 2);
+// console.log(5 % 2);
+
+// { Problem Here }
+// let str1 = "Hello";
+// let str2 = " Manoja S S";
+// let str3 = str1 + str2;
+// console.log(str3);
+
+// { Confustion here }
+// console.log("1" + 2); // If and one is String O/P ==> String or concatenation
+// console.log(1 + 2); // If both are Number O/P ==> Number or here Addition Operation 
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 4 + "1");
