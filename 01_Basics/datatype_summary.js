@@ -18,3 +18,30 @@ const printName = function(){
 }
 console.log(arr);
 console.log(myObj);
+
+
+// ++++++++++++++++++ Stack Memory and Heap Memory +++++++++++++++++++
+
+// Stack(Primitive),  Heap(Non-Primitive)
+
+let myName = "Manoj"
+
+let anotherName = myName;
+anotherName = "Manoja S S"
+console.log(anotherName);
+console.log(myName);
+
+console.log("-------------------------------");
+
+let userOne = {
+    emailId: "userone@gmail.com",
+    upiId: "uerone@kbl",
+    isActive: true
+}
+
+let userTwo = userOne;
+userTwo.emailId = "userTwo@gamil.com";
+userTwo.upiId = "userTwo@kbl",
+userTwo.isActive = false
+console.log(userOne);
+console.log(userTwo);
